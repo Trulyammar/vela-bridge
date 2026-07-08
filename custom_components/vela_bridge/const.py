@@ -1,0 +1,6 @@
+DOMAIN = "vela_bridge"
+CONF_BROKER_HOST = "broker_host"
+CONF_BROKER_PORT = "broker_port"
+CONF_USERNAME = "username"
+CONF_PASSWORD = "password"
+CONF_TOPIC_PREFIX = "topic_prefix"
