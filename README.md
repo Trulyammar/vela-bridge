@@ -3,7 +3,7 @@
 This custom component integrates VELA commercial/residential thermostats with Home Assistant using a dedicated client connection over MQTT (without reusing Home Assistant's global MQTT connection).
 
 ## Features
-- **Dedicated MQTT Client**: Connects directly to VELA's EMQX broker. Does not conflict with local brokers or Zigbee2MQTT/Tasmota setups.
+- **Dedicated MQTT Client**: Connects directly to VELA's broker. Does not conflict with local brokers or Zigbee2MQTT/Tasmota setups.
 - **Auto-Discovery & State Synchronization**: Publishes states (temperature, fan, HVAC mode) to the VELA central ingest.
 - **Command Subscription**: Listens for target temperature and HVAC mode commands from the VELA dashboard.
 - **Dual Setpoint Support**: Handles auto-mode heating/cooling ranges (`target_temp_high`/`target_temp_low`).
